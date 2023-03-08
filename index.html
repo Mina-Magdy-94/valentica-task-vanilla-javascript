@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentica Task</title>
+    <script src="https://kit.fontawesome.com/79fd1e5010.js" crossorigin="anonymous"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <header>
+        <a href="#" class="logo">Valentica</a>
+        <div class="menu-bar">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li class="cart"><a href="#"> <i class="fa-solid fa-cart-shopping"></i> (0)</a>
+                    <ul class="cart-products">
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Products</h1>
+        <div class="container">
+        </div>
+    </section>
+
+    <script type="module" src="/util/backend_data.js"></script>
+    <script type="module" src="/util/fetch_util.js"></script>
+    <script type="module" src="/util/localstorage_util.js"></script>
+    <script type="module" src="/app/cart.js"></script>
+    <script type="module" src="/app/store.js"></script>
+    <script type="module" src="/app/index.js"></script>
+</body>
+
+</html>
